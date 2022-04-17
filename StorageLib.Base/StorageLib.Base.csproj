@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>BassClefStudio.Storage.Base</AssemblyName>
+    <RootNamespace>BassClefStudio.Storage.Base</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StorageLib\StorageLib.csproj" />
+  </ItemGroup>
+
+</Project>
