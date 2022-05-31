@@ -6,7 +6,7 @@
     public interface IStorageFile : IStorageItem
     {
         /// <summary>
-        /// The type of the file, as a file extension (e.g. 'cs').
+        /// The type of the file, as a file extension (e.g. '.cs').
         /// </summary>
         string FileType { get; }
 
