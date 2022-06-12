@@ -1,11 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
     <AssemblyName>BassClefStudio.Storage</AssemblyName>
     <RootNamespace>BassClefStudio.Storage</RootNamespace>
-  </PropertyGroup>
 
+    <PackageId>StorageLib</PackageId>
+    <Authors>BassClefStudio</Authors>
+    <Description>Provides a set of platform-agnostic interfaces for querying, reading, and writing files and folders.</Description>
+    <PackageProjectUrl>https://github.com/bassclefstudio/StorageLib</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bassclefstudio/StorageLib.git</RepositoryUrl>
+    <PackageTags>storage;files</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
 </Project>

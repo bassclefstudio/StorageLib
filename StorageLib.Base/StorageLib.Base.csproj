@@ -1,15 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
     <AssemblyName>BassClefStudio.Storage.Base</AssemblyName>
     <RootNamespace>BassClefStudio.Storage.Base</RootNamespace>
+
+    <PackageId>StorageLib.Base</PackageId>
+    <Authors>BassClefStudio</Authors>
+    <Description>Provides a basic implementation of StorageLib interfaces using the .NET FileInfo/DirectoryInfo types.</Description>
+    <PackageProjectUrl>https://github.com/bassclefstudio/StorageLib</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bassclefstudio/StorageLib.git</RepositoryUrl>
+    <PackageTags>storage;files;base</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\StorageLib\StorageLib.csproj" />
-  </ItemGroup>
-
 </Project>
