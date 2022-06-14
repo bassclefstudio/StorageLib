@@ -3,6 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <AssemblyName>BassClefStudio.Storage.Base</AssemblyName>
     <RootNamespace>BassClefStudio.Storage.Base</RootNamespace>
@@ -17,7 +18,4 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\StorageLib\StorageLib.csproj" />
-  </ItemGroup>
 </Project>
