@@ -18,4 +18,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StorageLib\StorageLib.csproj" />
+  </ItemGroup>
 </Project>
